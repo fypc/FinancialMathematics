@@ -1,5 +1,7 @@
 module FinancialMathematics
 
+export u, v, d, i, ani, dani, sni, dsni, Dani, Dsni, Ddani, Iani, Idani, Isni, Idsni, PQani, PQdani, PQsni, PQdsni
+
 function u(n, i)
   return (1 + i)^n
 end
